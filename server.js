@@ -39,11 +39,11 @@ app.get('/', (req, res) => {
                     </div>
                 </form>
                 </div>
-
                 <ul id="item-list" class="list-group pb-5">
                 </ul>
-                </div>          <script>
-            let items = ${JSON.stringify(items)}
+            </div>
+            <script>
+                let items = ${JSON.stringify(items)}
             </script>
             <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
             <script src='/browser.js'></script>
